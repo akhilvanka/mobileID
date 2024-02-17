@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct UserHome: View {
-    @State var dynamicSize: CGFloat = 55
+    @State var dynamicSize: CGFloat = 50
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack {
                 HStack {
                     VStack(spacing: 5) {
@@ -63,12 +63,17 @@ struct UserHome: View {
 struct UserHome2: View {
     var body: some View {
         UserHome()
-            .background(Color(UIColor.secondarySystemBackground))
+            .background(RoundedRectangle(cornerRadius: 15).fill(Color(UIColor.secondarySystemBackground)))
             .safeAreaInset(edge: .top) {
                 HStack {
-                    RoundedRectangle(cornerRadius: 10)
-                        .frame(width: 50, height: 50)
-                        .shadow(radius: 2.5)
+                    Button(action: {
+                        
+                    }, label: {
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 50, height: 50)
+                            .shadow(radius: 2.5)
+                            .foregroundStyle(Color.primary)
+                    })
                     VStack {
                         Text("George Washington")
                             .font(.headline)

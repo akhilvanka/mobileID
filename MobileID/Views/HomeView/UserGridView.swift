@@ -48,6 +48,7 @@ struct LockElement: View {
                 Spacer()
                 Text("123 Hard St")
                     .font(.subheadline)
+//                    .fontDesign(.serif)
                     .monospaced()
             }
             .frame(maxWidth: .infinity, alignment: .leading)

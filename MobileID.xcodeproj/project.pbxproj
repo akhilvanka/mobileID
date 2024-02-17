@@ -19,6 +19,7 @@
 		A1B679E92B81493D002FDF43 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679E82B81493D002FDF43 /* CGPoint+Extensions.swift */; };
 		A1B679EF2B8153CC002FDF43 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679EE2B8153CC002FDF43 /* Color+Extensions.swift */; };
 		A1B679F22B815C69002FDF43 /* UserGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679F12B815C69002FDF43 /* UserGridView.swift */; };
+		A1B679F42B817939002FDF43 /* NavigationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679F32B817939002FDF43 /* NavigationTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A1B679E82B81493D002FDF43 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		A1B679EE2B8153CC002FDF43 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		A1B679F12B815C69002FDF43 /* UserGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGridView.swift; sourceTree = "<group>"; };
+		A1B679F32B817939002FDF43 /* NavigationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B679F02B815C3E002FDF43 /* HomeView */,
+				A1B679F32B817939002FDF43 /* NavigationTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B679E52B814856002FDF43 /* FluidGradient.swift in Sources */,
+				A1B679F42B817939002FDF43 /* NavigationTabView.swift in Sources */,
 				A1B679E32B814790002FDF43 /* FluidGradientView.swift in Sources */,
 				A1B679EF2B8153CC002FDF43 /* Color+Extensions.swift in Sources */,
 				A1B679E92B81493D002FDF43 /* CGPoint+Extensions.swift in Sources */,
