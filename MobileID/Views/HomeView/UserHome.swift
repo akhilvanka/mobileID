@@ -38,6 +38,7 @@ struct UserHome: View {
                     LazyHStack {
                         ForEach(0..<3) { index in
                             PriorityCardView(name: "Room \(index)")
+                                .frame(width: 250)
                         }
                     }
                 }
@@ -103,7 +104,7 @@ struct PriorityCardView: View {
                       highlights: Color.randomThree(), speed: 0, blur: 0.75)
             .background(.quaternary)
             .cornerRadius(10)
-            .scaledToFit()
+//            .scaledToFit() //TODO: UI A/B test this to see if squares or rect
             .shadow(radius: 5)
             .overlay(alignment: .bottomTrailing) {
                 Text(name)
@@ -116,7 +117,6 @@ struct PriorityCardView: View {
 
 #Preview("Default") {
     UserHome()
-        .background(RoundedRectangle(cornerRadius: 15).fill(Color(UIColor.secondarySystemBackground)))
 }
 
 #Preview("Ubiquiti Style") {

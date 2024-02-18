@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10193D72B826D64006685DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10193D62B826D64006685DD /* LoginView.swift */; };
 		A1B679C92B813110002FDF43 /* MobileIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679C82B813110002FDF43 /* MobileIDApp.swift */; };
 		A1B679CB2B813110002FDF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679CA2B813110002FDF43 /* ContentView.swift */; };
 		A1B679CD2B813113002FDF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B679CC2B813113002FDF43 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10193D62B826D64006685DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A1B679C52B813110002FDF43 /* MobileID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B679C82B813110002FDF43 /* MobileIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileIDApp.swift; sourceTree = "<group>"; };
 		A1B679CA2B813110002FDF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10193D52B826D4B006685DD /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				A10193D62B826D64006685DD /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
 		A1B679BC2B813110002FDF43 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		A1B679D62B813295002FDF43 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A10193D52B826D4B006685DD /* LoginView */,
 				A1B679F02B815C3E002FDF43 /* HomeView */,
 				A1B679F32B817939002FDF43 /* NavigationTabView.swift */,
 			);
@@ -202,6 +213,7 @@
 				A1B679EF2B8153CC002FDF43 /* Color+Extensions.swift in Sources */,
 				A1B679E92B81493D002FDF43 /* CGPoint+Extensions.swift in Sources */,
 				A1B679E72B8148F0002FDF43 /* BlobLayer.swift in Sources */,
+				A10193D72B826D64006685DD /* LoginView.swift in Sources */,
 				A1B679F22B815C69002FDF43 /* UserGridView.swift in Sources */,
 				A1B679CB2B813110002FDF43 /* ContentView.swift in Sources */,
 				A1B679E12B814731002FDF43 /* ResizableLayer.swift in Sources */,
