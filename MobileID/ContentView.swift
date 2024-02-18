@@ -9,38 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     // For a custom tab bar implementation
-    @State private var selectedWindow = 0
+    @State private var selectedTab: Tab = .home
     
     var body: some View {
-//        UserHome2()
-//        TabView {
-//            UserHome2()
-//                .tabItem {
-//                    Image(systemName: "house")
-//                    Text("Home")
-//                }
-//            UserHome()
-//                .tabItem {
-//                    Image(systemName: "lock")
-//                    Text("Secondary")
-//                }
-//            UserGridView()
-//                .tabItem {
-//                    Image(systemName: "magnifyingglass")
-//                    Text("Grid")
-//                }
-//        }
-//        .onAppear() {
-//        }
         ZStack {
-            UserHome2()
-            VStack {
-                Spacer()
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(Color(UIColor.secondarySystemBackground))
-                    .frame(maxHeight: 100)
+            Group {
+                switch selectedTab {
+                case .home:
+                    UserHome2()
+                case .web:
+                    UserHome()
+                case .lost:
+                    UserGridView()
+                }
             }
-            .ignoresSafeArea()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            NavigationTabView(selectedTab: $selectedTab)
         }
     }
 }

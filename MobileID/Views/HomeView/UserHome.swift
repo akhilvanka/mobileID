@@ -53,6 +53,8 @@ struct UserHome: View {
                 Spacer()
             }
             .padding(.all)
+            Spacer()
+                .frame(height: 88)
         }
         .onAppear {
             UIScrollView.appearance().showsVerticalScrollIndicator = false
