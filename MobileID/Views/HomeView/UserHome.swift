@@ -56,6 +56,7 @@ struct UserHome: View {
             Spacer()
                 .frame(height: 88)
         }
+        .clipShape(RoundedRectangle(cornerRadius: 15))
         .onAppear {
             UIScrollView.appearance().showsVerticalScrollIndicator = false
         }
@@ -88,7 +89,7 @@ struct UserHome2: View {
                     }
                     Spacer()
                 }
-                .padding([.horizontal, .bottom])
+                .padding(.all)
                 .background(Color(UIColor.systemBackground))
             }
     }
@@ -115,6 +116,7 @@ struct PriorityCardView: View {
 
 #Preview("Default") {
     UserHome()
+        .background(RoundedRectangle(cornerRadius: 15).fill(Color(UIColor.secondarySystemBackground)))
 }
 
 #Preview("Ubiquiti Style") {

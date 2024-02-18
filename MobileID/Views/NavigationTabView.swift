@@ -23,7 +23,7 @@ enum Tab: String {
 var tabItems = [
     TabItem(text: "Home", icon: "house", tab: .home),
     TabItem(text: "Welcome", icon: "safari", tab: .web),
-    TabItem(text: "Lost/Found", icon: "lock", tab: .lost)
+    TabItem(text: "Lost", icon: "lock", tab: .lost)
 ]
 
 
