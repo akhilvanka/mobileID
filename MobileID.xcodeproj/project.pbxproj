@@ -29,6 +29,7 @@
 		A10193D62B826D64006685DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A10193D92B827D14006685DD /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		A10193DB2B8299DC006685DD /* FetchLocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLocationData.swift; sourceTree = "<group>"; };
+		A10193E02B83F211006685DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A1B679C52B813110002FDF43 /* MobileID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B679C82B813110002FDF43 /* MobileIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileIDApp.swift; sourceTree = "<group>"; };
 		A1B679CA2B813110002FDF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,9 +74,18 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		A10193E12B83F2A8006685DD /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		A1B679BC2B813110002FDF43 = {
 			isa = PBXGroup;
 			children = (
+				A10193E12B83F2A8006685DD /* screenshots */,
+				A10193E02B83F211006685DD /* README.md */,
 				A1B679C72B813110002FDF43 /* MobileID */,
 				A1B679C62B813110002FDF43 /* Products */,
 			);
