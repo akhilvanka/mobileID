@@ -71,7 +71,7 @@ struct UserHome2: View {
             .safeAreaInset(edge: .top) {
                 HStack {
                     Button(action: {
-                        
+                        fetchNewData()
                     }, label: {
                         RoundedRectangle(cornerRadius: 10)
                             .frame(width: 50, height: 50)

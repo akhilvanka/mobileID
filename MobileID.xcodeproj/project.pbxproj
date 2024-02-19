@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A10193D72B826D64006685DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10193D62B826D64006685DD /* LoginView.swift */; };
+		A10193DA2B827D14006685DD /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10193D92B827D14006685DD /* AuthenticationService.swift */; };
+		A10193DC2B8299DC006685DD /* FetchLocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10193DB2B8299DC006685DD /* FetchLocationData.swift */; };
 		A1B679C92B813110002FDF43 /* MobileIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679C82B813110002FDF43 /* MobileIDApp.swift */; };
 		A1B679CB2B813110002FDF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B679CA2B813110002FDF43 /* ContentView.swift */; };
 		A1B679CD2B813113002FDF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B679CC2B813113002FDF43 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		A10193D62B826D64006685DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A10193D92B827D14006685DD /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		A10193DB2B8299DC006685DD /* FetchLocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLocationData.swift; sourceTree = "<group>"; };
 		A1B679C52B813110002FDF43 /* MobileID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B679C82B813110002FDF43 /* MobileIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileIDApp.swift; sourceTree = "<group>"; };
 		A1B679CA2B813110002FDF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 				A10193D62B826D64006685DD /* LoginView.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		A10193D82B827D03006685DD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A10193D92B827D14006685DD /* AuthenticationService.swift */,
+				A10193DB2B8299DC006685DD /* FetchLocationData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		A1B679BC2B813110002FDF43 = {
@@ -110,6 +123,7 @@
 		A1B679D72B81329E002FDF43 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A10193D82B827D03006685DD /* Data */,
 				A1B679DF2B814723002FDF43 /* FluidGradients */,
 				A1B679EE2B8153CC002FDF43 /* Color+Extensions.swift */,
 			);
@@ -153,6 +167,8 @@
 			dependencies = (
 			);
 			name = MobileID;
+			packageProductDependencies = (
+			);
 			productName = MobileID;
 			productReference = A1B679C52B813110002FDF43 /* MobileID.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +197,8 @@
 				Base,
 			);
 			mainGroup = A1B679BC2B813110002FDF43;
+			packageReferences = (
+			);
 			productRefGroup = A1B679C62B813110002FDF43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,12 +230,14 @@
 				A1B679E32B814790002FDF43 /* FluidGradientView.swift in Sources */,
 				A1B679EF2B8153CC002FDF43 /* Color+Extensions.swift in Sources */,
 				A1B679E92B81493D002FDF43 /* CGPoint+Extensions.swift in Sources */,
+				A10193DC2B8299DC006685DD /* FetchLocationData.swift in Sources */,
 				A1B679E72B8148F0002FDF43 /* BlobLayer.swift in Sources */,
 				A10193D72B826D64006685DD /* LoginView.swift in Sources */,
 				A1B679F22B815C69002FDF43 /* UserGridView.swift in Sources */,
 				A1B679CB2B813110002FDF43 /* ContentView.swift in Sources */,
 				A1B679E12B814731002FDF43 /* ResizableLayer.swift in Sources */,
 				A1B679D92B81331F002FDF43 /* UserHome.swift in Sources */,
+				A10193DA2B827D14006685DD /* AuthenticationService.swift in Sources */,
 				A1B679C92B813110002FDF43 /* MobileIDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
